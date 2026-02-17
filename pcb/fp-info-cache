@@ -1,4 +1,4 @@
-26820949859457834
+26822721568515113
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59394,6 +59394,13 @@ SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil
 0
 6
 6
+CustomFootprints
+ToggleSwitch_THT_SPDT
+
+
+0
+3
+3
 Custom_FP
 Enclosure
 
@@ -59406,8 +59413,8 @@ Potty
 
 
 0
-4
-4
+5
+5
 Custom_FP
 Untitled
 
