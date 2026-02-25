@@ -2181,10 +2181,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+5VA"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2198,7 +2202,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+5VA"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2224,7 +2228,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2242,7 +2246,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+5VA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2280,12 +2284,11 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+5VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3317,71 +3320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a22c679-b2d9-4c26-aa7e-25dc64ab9062")
-		(property "Reference" "#PWR041"
-			(at 135.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc06c58c-75be-4fc3-9cbd-3ca125af6974")
-		)
-		(instances
-			(project "DaisySeedPedal125b"
-				(path "/1d54e6f4-7c7a-4f03-b2db-a136bdff5b99/d5b1af0e-2179-4bcd-8e24-55fd6680ab7e"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 52.07 83.82 0)
 		(unit 1)
@@ -4039,7 +3977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
+		(property "Footprint" "NMJ6HCD2:NEUTRIK_NMJ6HCD2"
 			(at 220.98 76.2 0)
 			(effects
 				(font
@@ -4630,6 +4568,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 135.89 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4cdc7be-0cdc-4a5c-8305-1dc4828beb7c")
+		(property "Reference" "#PWR050"
+			(at 135.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 135.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "509c6f71-f53b-42c2-ad17-0719f9b7c8cd")
+		)
+		(instances
+			(project ""
+				(path "/1d54e6f4-7c7a-4f03-b2db-a136bdff5b99/d5b1af0e-2179-4bcd-8e24-55fd6680ab7e"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 190.5 0)
 		(unit 1)
@@ -4856,7 +4860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
+		(property "Footprint" "NMJ6HCD2:NEUTRIK_NMJ6HCD2"
 			(at 240.03 124.46 0)
 			(effects
 				(font

@@ -934,6 +934,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GuitarPedal125B:Electrosmith_Daisy_Seed_Rev7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2261,6 +2385,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+9V"
 			(power)
 			(pin_names
@@ -2579,6 +2828,12 @@
 		(uuid "61d01bd8-5b7d-4be6-b65d-a873a4295b88")
 	)
 	(junction
+		(at 205.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61fbaa78-5a4a-4d95-a578-b6353f67c794")
+	)
+	(junction
 		(at 128.27 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2681,6 +2936,12 @@
 		(uuid "c1929284-6de1-487c-ba97-9b8f082e9121")
 	)
 	(junction
+		(at 205.74 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccda981a-361f-4e27-a8ec-6cc514d6aeb5")
+	)
+	(junction
 		(at 128.27 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2709,6 +2970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f46c4587-e648-4e5d-a63a-90edf56682c0")
+	)
+	(junction
+		(at 209.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f72cd74a-eee0-4900-aa8c-a6c406510db6")
 	)
 	(junction
 		(at 196.85 99.06)
@@ -2785,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "058e2871-dad1-4d13-9a85-e7f4c24066d3")
+	)
+	(wire
+		(pts
+			(xy 209.55 52.07) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ff80fe-0e2d-4473-8b7b-c7e865661887")
 	)
 	(wire
 		(pts
@@ -2868,13 +3145,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 68.58) (xy 244.856 68.58)
+			(xy 196.85 68.58) (xy 242.57 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2468115a-c7fa-4799-93d3-fc786c0f138b")
+	)
+	(wire
+		(pts
+			(xy 209.55 88.9) (xy 212.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24872eb1-3fea-47e9-9415-8bb4d5b4dc9d")
 	)
 	(wire
 		(pts
@@ -2908,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 88.9) (xy 212.09 88.9)
+			(xy 196.85 88.9) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3058,6 +3345,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 86.36) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4daab6-fc6a-44bd-8299-f93bf3aab939")
+	)
+	(wire
+		(pts
 			(xy 128.27 109.22) (xy 133.35 109.22)
 		)
 		(stroke
@@ -3095,6 +3392,16 @@
 			(type default)
 		)
 		(uuid "761353d0-96c3-4275-ae14-5e4a17625939")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f12a9b-9596-4281-9318-459f133f5d37")
 	)
 	(wire
 		(pts
@@ -3208,7 +3515,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 212.09 86.36)
+			(xy 196.85 86.36) (xy 205.74 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3235,6 +3542,16 @@
 			(type default)
 		)
 		(uuid "9ba10c7a-a416-4cc2-ac1c-76a594de8b2a")
+	)
+	(wire
+		(pts
+			(xy 205.74 49.53) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc8d3a9-bd36-4448-82b6-71fe2b010155")
 	)
 	(wire
 		(pts
@@ -3308,7 +3625,17 @@
 	)
 	(wire
 		(pts
-			(xy 244.856 68.58) (xy 244.856 70.104)
+			(xy 209.55 63.5) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91b6977-418c-43bd-bfcb-c60d12a48318")
+	)
+	(wire
+		(pts
+			(xy 242.57 68.58) (xy 242.57 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3395,6 +3722,16 @@
 			(type default)
 		)
 		(uuid "cc2ac1c3-4148-4cdd-bccd-71f9f90824fe")
+	)
+	(wire
+		(pts
+			(xy 209.55 55.88) (xy 209.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc451d83-f98f-4502-a6ad-59c2ad5851de")
 	)
 	(wire
 		(pts
@@ -3565,6 +3902,16 @@
 			(type default)
 		)
 		(uuid "f8080629-35e2-43f6-8fa1-3677e7e25dea")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b5a1c7-0835-4bd1-bb17-9c2da571c4f3")
 	)
 	(wire
 		(pts
@@ -4332,6 +4679,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 209.55 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cf573a6-7c0d-4a1e-8261-cb42740fb0cd")
+		(property "Reference" "R28"
+			(at 215.9 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 213.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.772 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85ba90a9-2607-4cfc-9c60-79abbfa681f2")
+		)
+		(pin "1"
+			(uuid "46850837-e63d-4e79-9c11-ea1cb319d4b0")
+		)
+		(instances
+			(project "DaisySeedPedal125b_potty"
+				(path "/1d54e6f4-7c7a-4f03-b2db-a136bdff5b99"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GuitarPedal125B:Electrosmith_Daisy_Seed_Rev7")
 		(at 162.56 92.71 0)
 		(unit 1)
@@ -4514,7 +4928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 244.856 70.104 0)
+		(at 242.57 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4523,7 +4937,7 @@
 		(fields_autoplaced yes)
 		(uuid "58598009-3b0e-4ac0-a26e-0a107e1b234b")
 		(property "Reference" "#PWR03"
-			(at 244.856 76.454 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4532,7 +4946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.856 75.184 0)
+			(at 242.57 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 244.856 70.104 0)
+			(at 242.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 244.856 70.104 0)
+			(at 242.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 244.856 70.104 0)
+			(at 242.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,6 +5236,140 @@
 			(project "DaisySeedPedal125b"
 				(path "/1d54e6f4-7c7a-4f03-b2db-a136bdff5b99"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a121c7da-a58b-43a8-b4fd-7836671c43a2")
+		(property "Reference" "#PWR063"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1b7feae-2928-4f91-b244-93cc6edae9e5")
+		)
+		(instances
+			(project "DaisySeedPedal125b_potty"
+				(path "/1d54e6f4-7c7a-4f03-b2db-a136bdff5b99"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1bf9f1e-e12f-4df4-b781-aab14e752d60")
+		(property "Reference" "R29"
+			(at 199.39 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 201.93 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.518 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0bdcbed-1259-4ba2-9666-3db7edf4e87c")
+		)
+		(pin "1"
+			(uuid "59049af4-e7bb-43fc-9400-688594ea5ea1")
+		)
+		(instances
+			(project "DaisySeedPedal125b_potty"
+				(path "/1d54e6f4-7c7a-4f03-b2db-a136bdff5b99"
+					(reference "R29")
 					(unit 1)
 				)
 			)
