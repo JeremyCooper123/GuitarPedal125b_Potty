@@ -1,0 +1,10 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"FS1","Foot_Switch_1","PinHeader_1x02_P2.54mm_Vertical",140.040000,-132.250000,90.000000,bottom
+"FS2","Foot_Switch_2","PinHeader_1x02_P2.54mm_Vertical",146.500000,-132.250000,90.000000,bottom
+"LED1","LED_1","PinHeader_1x02_P2.54mm_Vertical",124.750000,-125.000000,90.000000,bottom
+"LED2","LED_2","PinHeader_1x02_P2.54mm_Vertical",161.775000,-125.000000,90.000000,bottom
+"U7","OLED_DISPLAY_SSD1306_SPI","HiLetgo_OLED_SPI",142.000000,-108.500000,180.000000,bottom
+"potty1","Custom_Encoder/LED_Module","Potty",160.000000,-56.500000,0.000000,bottom
+"potty2","Custom_Encoder/LED_Module","Potty",124.000000,-56.500000,0.000000,bottom
+"potty3","Custom_Encoder/LED_Module","Potty",160.000000,-84.000000,-90.000000,bottom
+"potty4","Custom_Encoder/LED_Module","Potty",124.000000,-84.000000,-90.000000,bottom
