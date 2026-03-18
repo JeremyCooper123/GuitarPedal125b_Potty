@@ -11626,6 +11626,17 @@
 			(uuid "5eb70877-a99b-4944-868d-82187eda8df5")
 		)
 		(embedded_fonts no)
+		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/socket-panel-2.snapshot.4/Socket Panel.stp"
+			(offset
+				(xyz -57 14 10)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
@@ -16667,7 +16678,7 @@
 		(embedded_fonts no)
 		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/GuitarPedal125b_Potty/enclosure/daisy-enclosure_new-top_v2.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -18929,7 +18940,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "82d9fb61-91b6-4905-a44e-748a7c7e551b")
+			(uuid "d72970a9-42e2-4b72-8bc4-399373f5fbae")
 		)
 		(fp_line
 			(start -9.35623 5.282771)
@@ -18939,7 +18950,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "65fc821b-b504-4f99-b418-3d9c0b7bf3dc")
+			(uuid "cf11e4b4-8b00-4abc-bf99-a3d437658b05")
 		)
 		(fp_line
 			(start -9.342992 -4.856832)
@@ -18949,7 +18960,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "1ca59a29-6045-498a-8c43-777de39c25f6")
+			(uuid "c116c42d-aed1-4f32-baaf-a8b34a6bf574")
 		)
 		(fp_line
 			(start -7.85623 3.282771)
@@ -18959,7 +18970,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7f79dddd-daa2-4af6-9366-f7f63452faf7")
+			(uuid "0783531f-b9cb-4728-b127-e82bc09c48f6")
 		)
 		(fp_line
 			(start -7.842992 -6.856832)
@@ -18969,7 +18980,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9b34e91c-4dd4-42d9-b6df-24730766f980")
+			(uuid "089f6a88-a64a-4894-8775-55ef083d8d70")
 		)
 		(fp_line
 			(start -7.35623 6.782771)
@@ -18979,7 +18990,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d633bcc0-0115-4ec6-a63f-68cd199fb1f7")
+			(uuid "bcf83aa2-ddad-485c-95bf-b7941115450b")
 		)
 		(fp_line
 			(start -7.342992 -3.356832)
@@ -18989,7 +19000,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "268075e3-bb0b-4e99-b1be-7df87f6e5c39")
+			(uuid "e7f6e314-ab22-4174-9f7c-5df1c8ac841f")
 		)
 		(fp_line
 			(start -5.85623 4.782771)
@@ -18999,7 +19010,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c8680cf0-5a34-49b5-882c-acdd3fcc5415")
+			(uuid "ae792d8f-032e-408b-94c0-bce2253e32c6")
 		)
 		(fp_line
 			(start -5.842992 -5.356832)
@@ -19009,7 +19020,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "dbe22dc0-2ecb-4eb5-973e-07cd4e51c78b")
+			(uuid "81925de8-2dec-474f-a948-2f03ce74a9f6")
 		)
 		(fp_line
 			(start 3.5 -7.5)
@@ -19019,7 +19030,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c2f21cd9-6d77-440e-a968-6a065f220a76")
+			(uuid "4140cf96-6f93-4ec3-8bdb-61e6786633e4")
 		)
 		(fp_line
 			(start 5 -9.5)
@@ -19029,7 +19040,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9da6cdf2-6794-44cb-b3bc-34d862e1382f")
+			(uuid "8ba33dab-b248-4a6b-b3b5-4958c271f19f")
 		)
 		(fp_line
 			(start 5.5 -6)
@@ -19039,7 +19050,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9d759d73-8a42-4fa0-b311-9ad8019388f0")
+			(uuid "9909142d-012a-4dad-953b-56078d6fbb3a")
 		)
 		(fp_line
 			(start 5.767959 5.282771)
@@ -19049,7 +19060,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ee341ffd-8fbc-411a-b05d-c9cf0fc7390c")
+			(uuid "25f3322e-cf96-4701-9242-c27220b5a662")
 		)
 		(fp_line
 			(start 5.863543 -4.862494)
@@ -19059,7 +19070,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "16aa81ca-61e0-43b4-8e98-81af285e6771")
+			(uuid "d3562da5-1e5b-48a5-8281-60053bb7dc29")
 		)
 		(fp_line
 			(start 7 -8)
@@ -19069,7 +19080,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "db698d64-ee5c-4a06-97fa-a11978c46011")
+			(uuid "f205da77-46e8-4f13-bd3d-3be1b8675822")
 		)
 		(fp_line
 			(start 7.267959 3.282771)
@@ -19079,7 +19090,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "895d2bda-ec3c-4486-9141-8d6f29bb279d")
+			(uuid "0d702350-5aab-4803-b655-f529e76fc3ea")
 		)
 		(fp_line
 			(start 7.363543 -6.862494)
@@ -19089,7 +19100,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c04087e2-860e-4eff-b605-9d8b54b834cc")
+			(uuid "797835f4-bb8c-40f5-8400-1774417247cf")
 		)
 		(fp_line
 			(start 7.767959 6.782771)
@@ -19099,7 +19110,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "378657d4-d133-4c62-8173-539687cb5fc8")
+			(uuid "3e3c0ac8-91b6-4f99-8bba-b24d3a9c0dab")
 		)
 		(fp_line
 			(start 7.863543 -3.362494)
@@ -19109,7 +19120,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6f393350-2702-4716-8b7b-039558e3e350")
+			(uuid "8fe774fb-ba05-44af-b781-083b5bbf48e7")
 		)
 		(fp_line
 			(start 9.267959 4.782771)
@@ -19119,7 +19130,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6f569444-3f04-4c0f-bafc-92f76e4693f0")
+			(uuid "3891047b-da4b-4304-a22e-4e563c536056")
 		)
 		(fp_line
 			(start 9.363543 -5.362494)
@@ -19129,7 +19140,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "601a2ef1-02dc-4629-a4f4-6aa520608757")
+			(uuid "8aa1d6ef-fa5a-4eef-b20b-bfec073f41ea")
 		)
 		(fp_rect
 			(start -9 3)
@@ -19140,7 +19151,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "dd8eb471-c4b0-4454-9d07-7e9b3ac30d4c")
+			(uuid "2dc40506-3122-444e-ba37-36db8cf14e37")
 		)
 		(fp_rect
 			(start -1.558066 6.315804)
@@ -19151,7 +19162,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "06ff2222-9270-431e-a7f5-52e3fe67be62")
+			(uuid "d82eec4c-e522-4686-9fe3-52be3d693243")
 		)
 		(fp_rect
 			(start -1.44376 -3.314526)
@@ -19162,7 +19173,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "7b2f8acf-079a-4e05-b0b1-09918a412417")
+			(uuid "54bb7af3-33c4-478a-8d0f-d4fa2a25038c")
 		)
 		(fp_line
 			(start -2.5 0)
@@ -19172,7 +19183,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "c9d1437e-36ba-4a2d-b809-6de170e6c1b7")
+			(uuid "7da126bd-1854-46c0-98c9-d3797656d056")
 		)
 		(fp_line
 			(start 0 -2.5)
@@ -19182,7 +19193,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "65c9fde1-d4dc-4ce1-82b6-9e529bac7bba")
+			(uuid "4a2f4916-11b9-43f4-b6c2-dbee812c5a1f")
 		)
 		(fp_text user "SDA"
 			(at 6.830001 -3.100001 0)
@@ -19351,15 +19362,15 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knurled-chrome-metal-guitar-dome-knobs-rotary-encoder-6mm-1.snapshot.4/knurled_rotary_knob_low_res.STEP"
+		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knob-85.snapshot.3/RotaryEncKnob.STEP"
 			(offset
-				(xyz 0 0 12)
+				(xyz 0 0 20)
 			)
 			(scale
 				(xyz 0.9 0.9 0.9)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -19608,26 +19619,26 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/led-bezel-1.snapshot.2/LED BEZEL.STEP"
 			(hide yes)
 			(offset
-				(xyz 0 -1.5 10)
+				(xyz 0 0 -0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/led-holder-l-609r-1.snapshot.11/LED Holder L-609R/LED Holder L-609R.STEP"
+			(offset
+				(xyz 12.5 -16 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -19702,7 +19713,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "9e186fbb-29c0-4c21-bff1-416651afe781")
+			(uuid "a254df1c-6163-4e87-a1e1-4e78a4523c17")
 		)
 		(fp_line
 			(start -7.35623 6.782771)
@@ -19712,7 +19723,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ecb57621-fb23-4899-a371-c360221a283f")
+			(uuid "e937baba-5a46-4d56-bef3-6cafda47930a")
 		)
 		(fp_line
 			(start 7.767959 6.782771)
@@ -19722,7 +19733,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f4ea8c62-37c1-4868-b041-f33172de1008")
+			(uuid "a25d28a7-351a-4b0b-9a08-dcc73977e34b")
 		)
 		(fp_line
 			(start -9.35623 5.282771)
@@ -19732,7 +19743,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d06a375c-e184-4d01-8b7e-f8e86164aca3")
+			(uuid "eb8cf4bf-be6e-4059-8514-294ffc44a7a5")
 		)
 		(fp_line
 			(start 5.767959 5.282771)
@@ -19742,7 +19753,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "420f4798-ddf0-4d8c-8eec-df7031f0a706")
+			(uuid "8c71f6bf-4bec-4291-984d-2b713ac66226")
 		)
 		(fp_line
 			(start -5.85623 4.782771)
@@ -19752,7 +19763,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "37761768-b8fe-4ad4-b225-96d10d562ce0")
+			(uuid "7cd22740-e9f0-40c0-be70-e396460b7883")
 		)
 		(fp_line
 			(start 9.267959 4.782771)
@@ -19762,7 +19773,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "0672110e-9055-4599-8483-8d8ec7cd4a3e")
+			(uuid "b59b2fa9-10f5-41a1-b295-77705f99ea89")
 		)
 		(fp_line
 			(start -7.85623 3.282771)
@@ -19772,7 +19783,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "5a769793-603c-4491-af23-e864df961fac")
+			(uuid "4b36e9b4-cc3f-4834-b250-90a4319dc41a")
 		)
 		(fp_line
 			(start 7.267959 3.282771)
@@ -19782,7 +19793,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "070e4abe-5813-41ce-adb0-9c5b06e6ebd5")
+			(uuid "3b2c1b88-62ac-4fd7-b3fa-7d09e4504434")
 		)
 		(fp_line
 			(start -7.342992 -3.356832)
@@ -19792,7 +19803,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "317768a1-e943-41b2-85e1-685fa81c1737")
+			(uuid "8ce511de-b047-4942-b2c5-0adea685b89b")
 		)
 		(fp_line
 			(start 7.863543 -3.362494)
@@ -19802,7 +19813,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3c2b3285-1c88-40d4-a83f-bbcda38957a1")
+			(uuid "2fa347b1-dd3d-4ee0-b3e3-23b0f0e89d4f")
 		)
 		(fp_line
 			(start -9.342992 -4.856832)
@@ -19812,7 +19823,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d762f063-856d-4ba8-8adf-bafd08209eb2")
+			(uuid "9e29dc16-138c-453e-b199-fb73602f215a")
 		)
 		(fp_line
 			(start 5.863543 -4.862494)
@@ -19822,7 +19833,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "8949ae8e-bc99-4ca1-80a9-56b61db9acc4")
+			(uuid "913012a8-fd55-49d6-9bcc-56c55a893ace")
 		)
 		(fp_line
 			(start -5.842992 -5.356832)
@@ -19832,7 +19843,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "809a3fd4-5ccd-42aa-ab40-8d287550fe00")
+			(uuid "85b653e3-b6af-49a0-88bf-ed0e8d8efac6")
 		)
 		(fp_line
 			(start 9.363543 -5.362494)
@@ -19842,7 +19853,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "16bcd8a3-d0c1-4f9c-8947-7463773b345e")
+			(uuid "0b523a18-a307-491b-8a38-ed4ab2fe2cb7")
 		)
 		(fp_line
 			(start 5.5 -6)
@@ -19852,7 +19863,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "5fa334b6-85a6-4e9b-84fe-c725da018b20")
+			(uuid "d20602ec-55d5-4cb2-a8ec-104f70605bf0")
 		)
 		(fp_line
 			(start -7.842992 -6.856832)
@@ -19862,7 +19873,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6a6d4aed-d9f5-47bb-920c-a64c8c84022f")
+			(uuid "fd009acf-e169-4385-a9b2-a74611e6c896")
 		)
 		(fp_line
 			(start 7.363543 -6.862494)
@@ -19872,7 +19883,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "55064902-f879-44c6-84e8-17a4c2ba6c6c")
+			(uuid "dcafdc5f-8236-4e11-988c-f6fdf56e118a")
 		)
 		(fp_line
 			(start 3.5 -7.5)
@@ -19882,7 +19893,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f850e3d8-e8ae-49de-9833-6e4086b5a90c")
+			(uuid "2edd70ec-5e05-4fe4-926e-45e6e1582add")
 		)
 		(fp_line
 			(start 7 -8)
@@ -19892,7 +19903,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f14e8811-8a25-42c9-8ac5-319986689059")
+			(uuid "8761f569-7643-4b45-bc00-a4d27626503d")
 		)
 		(fp_line
 			(start 5 -9.5)
@@ -19902,7 +19913,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "25f94792-8c64-46c3-a631-08036e90c333")
+			(uuid "e548a606-61a9-4ea3-862c-378e6a450be8")
 		)
 		(fp_rect
 			(start -1.558066 6.315804)
@@ -19913,7 +19924,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "9aaa53ac-f003-47f9-a5cc-8bce9386b1da")
+			(uuid "a21c94c2-7cc7-46db-bd33-5b11fde93363")
 		)
 		(fp_rect
 			(start -9 3)
@@ -19924,7 +19935,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "cdaa7fae-fc37-4288-9f40-3174dc63b294")
+			(uuid "a542e41f-bfad-4d0c-92a6-917ed3db6941")
 		)
 		(fp_rect
 			(start -1.44376 -3.314526)
@@ -19935,7 +19946,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "1443bb87-8ae2-4ac1-80f9-77c2ade751a8")
+			(uuid "931214cc-7a6d-4666-ac16-8c64e781cda1")
 		)
 		(fp_line
 			(start -2.5 0)
@@ -19945,7 +19956,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "5b903a42-0080-442a-97a8-078c611d74ee")
+			(uuid "cdf70c1a-6ee7-44bb-9353-768e41658769")
 		)
 		(fp_line
 			(start 0 -2.5)
@@ -19955,7 +19966,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "0b4deb89-ec06-4f52-8e0a-75a2c66d31dc")
+			(uuid "a4d01150-883c-4425-8d25-7ef1f0b04cac")
 		)
 		(fp_text user "UPDI"
 			(at 3.32 -9.58 0)
@@ -20124,15 +20135,15 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knurled-chrome-metal-guitar-dome-knobs-rotary-encoder-6mm-1.snapshot.4/knurled_rotary_knob_low_res.STEP"
+		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knob-85.snapshot.3/RotaryEncKnob.STEP"
 			(offset
-				(xyz 0 0 12)
+				(xyz 0 0 20)
 			)
 			(scale
 				(xyz 0.9 0.9 0.9)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -20646,7 +20657,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "d04856c2-6314-4740-a20f-3b4a2bc09c35")
+			(uuid "697fd210-a980-4a21-b9d8-58468b95d120")
 		)
 		(fp_line
 			(start -7.35623 6.782771)
@@ -20656,7 +20667,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "30100a8a-a98d-46da-b76a-4634a48075a9")
+			(uuid "44393f4f-cd05-4d8f-913c-d46f573a9890")
 		)
 		(fp_line
 			(start 7.767959 6.782771)
@@ -20666,7 +20677,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "cbb8d4e7-134e-43c9-8760-f08d18f3f308")
+			(uuid "edc7132b-7df0-4213-95e3-82a37fb6245b")
 		)
 		(fp_line
 			(start -9.35623 5.282771)
@@ -20676,7 +20687,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "dd7b812b-a90b-4872-9139-e325a6ad52e6")
+			(uuid "83b417a2-e2ce-420c-b953-e7f0b3199a58")
 		)
 		(fp_line
 			(start 5.767959 5.282771)
@@ -20686,7 +20697,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "4d16513c-46a2-486c-9508-b03d3443c3cf")
+			(uuid "6978b9d2-274b-49cc-a3ba-7fd3c7bc552c")
 		)
 		(fp_line
 			(start -5.85623 4.782771)
@@ -20696,7 +20707,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ac4c260f-9d7c-460b-a3d1-99e470984b4f")
+			(uuid "260029e9-7ba6-4df6-bef9-28d2c771fe31")
 		)
 		(fp_line
 			(start 9.267959 4.782771)
@@ -20706,7 +20717,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c3e6b524-e4ca-4c56-816a-4372f9e90497")
+			(uuid "c415fd3a-8844-4978-bc1b-47f94480d0ae")
 		)
 		(fp_line
 			(start -7.85623 3.282771)
@@ -20716,7 +20727,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d93a4839-24e3-41e6-ad55-7a4ef954b4a9")
+			(uuid "82665bc3-b8b5-4acf-b5b1-15908a6174bc")
 		)
 		(fp_line
 			(start 7.267959 3.282771)
@@ -20726,7 +20737,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f194016c-71b2-4606-9185-ca0a6ef174e9")
+			(uuid "ed4e7171-5e41-4609-ade6-cb2627cfbbac")
 		)
 		(fp_line
 			(start -7.342992 -3.356832)
@@ -20736,7 +20747,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "43ed2a52-83ee-417c-a51d-d5e969aecfd2")
+			(uuid "f0ecf3f9-f85d-4bac-b980-d4e311734df8")
 		)
 		(fp_line
 			(start 7.863543 -3.362494)
@@ -20746,7 +20757,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d07e0f1b-68bd-4a0d-b762-df1b63b2cdd3")
+			(uuid "10858f8e-4257-40a7-9402-c6b1e8414a11")
 		)
 		(fp_line
 			(start -9.342992 -4.856832)
@@ -20756,7 +20767,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "514a6806-e042-4fd1-b2e5-c3b2f51300a9")
+			(uuid "53ef73ad-6747-40ac-bc89-309211dfdebf")
 		)
 		(fp_line
 			(start 5.863543 -4.862494)
@@ -20766,7 +20777,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "89e2302c-48e1-437e-842d-3f5b531bd6cf")
+			(uuid "b0732e8d-92ed-4be9-abd9-b5d6df09a6cc")
 		)
 		(fp_line
 			(start -5.842992 -5.356832)
@@ -20776,7 +20787,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2b5714f3-f826-4fc0-a89c-d032b6c02673")
+			(uuid "c4a38598-3053-4329-a0ce-a03cdeb3588f")
 		)
 		(fp_line
 			(start 9.363543 -5.362494)
@@ -20786,7 +20797,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "704d0b98-130a-4732-b75b-cac81a6552c4")
+			(uuid "0e09b454-d80d-44fd-b4fb-7b50c09c6c5b")
 		)
 		(fp_line
 			(start 5.5 -6)
@@ -20796,7 +20807,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "5f99f9a1-c1b2-4544-a249-eefdbb8800b6")
+			(uuid "00895a49-aba2-414f-89ae-e070f27bcfea")
 		)
 		(fp_line
 			(start -7.842992 -6.856832)
@@ -20806,7 +20817,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e43ce723-819a-40d3-812e-dd7a924b4203")
+			(uuid "f6db206f-dada-44e0-ba0b-abe31a911697")
 		)
 		(fp_line
 			(start 7.363543 -6.862494)
@@ -20816,7 +20827,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "18450317-7a0b-48ad-9c34-c290685ecdc4")
+			(uuid "9275b47c-9849-43dc-9e2f-19cbe90fc4a5")
 		)
 		(fp_line
 			(start 3.5 -7.5)
@@ -20826,7 +20837,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ad820f33-6ae6-4474-87b0-d4ba71b22be9")
+			(uuid "2c5e78c6-5a7e-446a-8cd4-ef3637a6a078")
 		)
 		(fp_line
 			(start 7 -8)
@@ -20836,7 +20847,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a63368a8-c7dc-4d50-a3f9-cf9809237e46")
+			(uuid "daff428b-5a17-4d02-b39a-e1c72cbfbe11")
 		)
 		(fp_line
 			(start 5 -9.5)
@@ -20846,7 +20857,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "54cd4e5e-6d80-450d-b195-e90423a64899")
+			(uuid "dee3a68f-5ff6-40fe-98da-3e9a70f723f2")
 		)
 		(fp_rect
 			(start -1.558066 6.315804)
@@ -20857,7 +20868,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "406629a7-f4d3-439b-ae80-685912ab2db0")
+			(uuid "2c984cf2-c005-4be8-88a8-6e530d3b8585")
 		)
 		(fp_rect
 			(start -9 3)
@@ -20868,7 +20879,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "fe4bcebe-a107-44b8-8c4a-acf56f6e18a2")
+			(uuid "20643aed-c2b5-4064-9e7f-1ec3b32e39f6")
 		)
 		(fp_rect
 			(start -1.44376 -3.314526)
@@ -20879,7 +20890,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "114c09dc-61d8-4e4c-a5ac-1faa662767f8")
+			(uuid "0c25f05b-c31c-4fc2-a992-3bb3899b74d3")
 		)
 		(fp_line
 			(start -2.5 0)
@@ -20889,7 +20900,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "cfc2dd28-40d7-43cc-9446-3580f60255c5")
+			(uuid "99dd446d-df66-4602-b35c-840a60012faa")
 		)
 		(fp_line
 			(start 0 -2.5)
@@ -20899,7 +20910,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "7a1fcfa7-58ec-4815-a5b4-7129ca1e0e40")
+			(uuid "339abf5d-0672-4e03-a4ff-e88cdba5452e")
 		)
 		(fp_text user "VCC"
 			(at -5.62 5.87 0)
@@ -21068,15 +21079,15 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knurled-chrome-metal-guitar-dome-knobs-rotary-encoder-6mm-1.snapshot.4/knurled_rotary_knob_low_res.STEP"
+		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knob-85.snapshot.3/RotaryEncKnob.STEP"
 			(offset
-				(xyz 0 0 12)
+				(xyz 0 0 20)
 			)
 			(scale
 				(xyz 0.9 0.9 0.9)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -21338,7 +21349,7 @@
 		)
 		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/led-holder-l-609r-1.snapshot.11/LED Holder L-609R/LED Holder L-609R.STEP"
 			(offset
-				(xyz 12.5 -16.5 4)
+				(xyz 12.5 -16.5 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -21419,7 +21430,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "022ff4d7-9d07-4cb0-995b-66ec75b740b8")
+			(uuid "6dfb6452-8566-48fb-a227-02aee95efa03")
 		)
 		(fp_line
 			(start -9.35623 5.282771)
@@ -21429,7 +21440,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "0eb09404-595e-4199-9f1e-fc7b9647dad6")
+			(uuid "2c5d1a10-e856-4fb7-ba3f-3235b0b541a1")
 		)
 		(fp_line
 			(start -9.342992 -4.856832)
@@ -21439,7 +21450,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "947f1b6e-7e75-4c3a-a90f-b1592f3a32d1")
+			(uuid "30e473e2-fbe3-4e84-878e-ff2cbb0c8af4")
 		)
 		(fp_line
 			(start -7.85623 3.282771)
@@ -21449,7 +21460,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "85cd1b0a-78ea-4b96-936c-98fecd7f9af6")
+			(uuid "106dddaf-8e9b-4286-b5b4-06d85fbf350e")
 		)
 		(fp_line
 			(start -7.842992 -6.856832)
@@ -21459,7 +21470,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ad95f787-ab92-49de-a807-ccef069aa260")
+			(uuid "e781a5fd-f5fe-4d19-9df2-6a0e5a131b9e")
 		)
 		(fp_line
 			(start -7.35623 6.782771)
@@ -21469,7 +21480,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ded82abd-8b71-48f5-92ac-b5d127f80e0b")
+			(uuid "5a269bdf-5f5c-49c9-b5e4-1b6aff4f5369")
 		)
 		(fp_line
 			(start -7.342992 -3.356832)
@@ -21479,7 +21490,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f9e3052c-f839-45b7-9e78-1848227f14f5")
+			(uuid "613f89de-25ba-461d-a0c7-a3e2b4ca9182")
 		)
 		(fp_line
 			(start -5.85623 4.782771)
@@ -21489,7 +21500,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a8f011ae-8688-4a18-83ed-ad3adacbdd04")
+			(uuid "7d0fa028-3c61-471b-bb20-3a14ce78a2c6")
 		)
 		(fp_line
 			(start -5.842992 -5.356832)
@@ -21499,7 +21510,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "58ee8b55-8cc9-4dac-b598-e12cfd4b9eac")
+			(uuid "6e47ddb8-c88a-4be0-8e62-f96a49bd2735")
 		)
 		(fp_line
 			(start 3.5 -7.5)
@@ -21509,7 +21520,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "292c9d1b-34a7-4017-a37e-b23efd839ce1")
+			(uuid "33ec9599-af78-43f6-8322-f33d085c6fab")
 		)
 		(fp_line
 			(start 5 -9.5)
@@ -21519,7 +21530,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2ceee108-eeef-4019-b3cd-24a1326d8ca1")
+			(uuid "ed22df17-ea59-4d6b-959f-0738a068f13e")
 		)
 		(fp_line
 			(start 5.5 -6)
@@ -21529,7 +21540,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ce9259f0-ff9e-4b72-bb5f-9276294bfa36")
+			(uuid "0669434a-0926-4266-be77-15695d3bba39")
 		)
 		(fp_line
 			(start 5.767959 5.282771)
@@ -21539,7 +21550,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "eddf1e96-a0d0-45d4-b1e0-595c84c53e7c")
+			(uuid "953fdc5f-1f4a-4c0b-9194-aa821bce2fc2")
 		)
 		(fp_line
 			(start 5.863543 -4.862494)
@@ -21549,7 +21560,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "01b23a51-99d4-469d-8305-63b6c07d2c0a")
+			(uuid "ab2c3fbb-22bc-474b-bed3-05daaae223ba")
 		)
 		(fp_line
 			(start 7 -8)
@@ -21559,7 +21570,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7221e5b5-fa13-400e-8110-0cd74102b75a")
+			(uuid "cbcd5a2a-5805-4fa1-b16f-25cae0ff60f1")
 		)
 		(fp_line
 			(start 7.267959 3.282771)
@@ -21569,7 +21580,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "971eb30b-cb37-4bc3-a076-2cde6c0ffca9")
+			(uuid "174f3d47-7e90-4c54-b87a-8444f87d3c93")
 		)
 		(fp_line
 			(start 7.363543 -6.862494)
@@ -21579,7 +21590,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "1d4da15c-777e-42ee-b6a4-7f978620658a")
+			(uuid "83d44a32-18fc-4156-8be9-7833b2d64871")
 		)
 		(fp_line
 			(start 7.767959 6.782771)
@@ -21589,7 +21600,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "05367eac-18bc-4114-ab54-da0925b93c06")
+			(uuid "f8729ba4-884d-43bd-862d-3ef2548acfce")
 		)
 		(fp_line
 			(start 7.863543 -3.362494)
@@ -21599,7 +21610,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "bfb3418f-9860-4892-8712-7638221c09c5")
+			(uuid "b6ae53c6-9d1c-4859-9d40-19afc9796c4f")
 		)
 		(fp_line
 			(start 9.267959 4.782771)
@@ -21609,7 +21620,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "fb4f6ee6-fa90-4b7b-8183-34491f1e3c9c")
+			(uuid "99d102e8-7fe8-4d39-984a-d80f679446ee")
 		)
 		(fp_line
 			(start 9.363543 -5.362494)
@@ -21619,7 +21630,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "1a0692e8-99d2-4487-b77d-6fb10078c7e9")
+			(uuid "8082f366-2d43-48c6-93ed-89e4af1410dc")
 		)
 		(fp_rect
 			(start -9 3)
@@ -21630,7 +21641,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "e436dab4-6641-4984-b8e6-82b0b5f488e3")
+			(uuid "97a0a266-ae20-42a5-b322-1298556b5402")
 		)
 		(fp_rect
 			(start -1.558066 6.315804)
@@ -21641,7 +21652,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "d73dadf9-1637-4cf4-b283-3f350d3eb10e")
+			(uuid "6847b469-71fb-4e89-b101-68a050dbef13")
 		)
 		(fp_rect
 			(start -1.44376 -3.314526)
@@ -21652,7 +21663,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "2fc95ceb-d928-4f21-a12f-811c59d115bc")
+			(uuid "e861bd70-eae8-418d-8d85-e6f7ce3215c9")
 		)
 		(fp_line
 			(start -2.5 0)
@@ -21662,7 +21673,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "0de73378-dce3-4d97-8776-913142794f11")
+			(uuid "24dffa34-459f-437a-a6e3-2576a61599c2")
 		)
 		(fp_line
 			(start 0 -2.5)
@@ -21672,7 +21683,7 @@
 				(type solid)
 			)
 			(layer "User.2")
-			(uuid "dd5915c4-e3d0-4c4d-a7d7-8be5cf9f7a9a")
+			(uuid "57f74ea0-7b4a-4de1-9399-9e6862ad8a0f")
 		)
 		(fp_text user "VCC"
 			(at -3.9 6.24 0)
@@ -21841,15 +21852,15 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knurled-chrome-metal-guitar-dome-knobs-rotary-encoder-6mm-1.snapshot.4/knurled_rotary_knob_low_res.STEP"
+		(model "D:/Documents/PROJECTS/Guitar Pedal/CustomSeedPedal/FunnerBox/FreeCad/Models/knob-85.snapshot.3/RotaryEncKnob.STEP"
 			(offset
-				(xyz 0 0 12)
+				(xyz 0 0 20)
 			)
 			(scale
 				(xyz 0.9 0.9 0.9)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
